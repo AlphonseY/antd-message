@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>message</title>
+  <link rel="stylesheet" href="../dist/theme/message.css">
+</head>
+<body>
+  <div>
+    <button onclick="window.$message.success('成功', 0)">success</button>
+    <button onclick="window.$message.error('失败', 0)">error</button>
+    <button onclick="window.$message.info('信息', 0)">info</button>
+    <button onclick="window.$message.warning('警告', 0)">warning</button>
+    <button onclick="window.$message.loading('loading...', 0)">loading</button>
+    <button onclick="window.$message.destroy()">destroy</button>
+  </div>
+  <script src="../dist/message.js"></script>
+</body>
+</html>
